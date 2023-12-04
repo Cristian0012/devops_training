@@ -1,0 +1,16 @@
+git clone git@github.com:Cristian0012/devops_training.git
+git checkout glenn 
+git branch list
+cd ing*
+cd *ing
+ls
+git checkout glenn 
+touch glenn_assign 
+git status
+git add .
+git status
+git commit -m "created file glenn_assign"
+git push 
+git diff main 
+git push origin glenn 
+
