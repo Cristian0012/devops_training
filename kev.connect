@@ -1,0 +1,12 @@
+sudo apt update
+
+git clone git@github.com:Cristian0012/devops_training.git
+
+git branch kevins
+
+
+git add .
+
+git commit -m "Connected"
+
+git push origin kevins
