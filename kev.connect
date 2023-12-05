@@ -4,9 +4,15 @@ git clone git@github.com:Cristian0012/devops_training.git
 
 git branch kevins
 
-
 git add .
 
 git commit -m "Connected"
 
+git config --global user.email "kevins0004@yahoo.fr"
+
+git config --global user.name "kevins"
+
+git push --set-upstream origin kevins
+
 git push origin kevins
+                        
