@@ -1,0 +1,34 @@
+sudo apt update
+
+ssh-keygen -t rsa -b 4096 -C "a.mategui11@gmail.com"
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+
+git config --global user.name "Cristian Aguilera"
+git config --global user.email "a.mategui11@gmail.com"
+
+mkdir devops_training 
+cd devops_training
+
+vim 01.connect
+git status
+git add 01.connect
+git commit -m “created first assignment for connecting”
+
+git remote add origin git@github.com:Cristian0012/devops_training.git
+git remote -v
+
+git branch -M main
+git push -u origin main
+
+---
+
+git branch cristian
+git checkout cristian
+
+vim assignment
+add steps 
+
+git add .
+git commit -m “I added cris.assignment”
+git push origin cristian
